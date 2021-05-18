@@ -24,4 +24,4 @@ if [ "$#" -ne 2 ]; then
 fi
 
 
-docker push ${imgDestination:-'docker.io/apache/camel-k'}:$1
+docker push ${imgDestination:-'docker.io/aanogueira/camel-k'}:$1

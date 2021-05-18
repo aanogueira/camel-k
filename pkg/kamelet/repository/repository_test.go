@@ -37,14 +37,14 @@ func TestURIParse(t *testing.T) {
 		repository KameletRepository
 	}{
 		{
-			uri: "github:apache/camel-kamelets",
+			uri: "github:aanogueira/camel-kamelets",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
 			},
 		},
 		{
-			uri: "github:apache/camel-kamelets/catalog",
+			uri: "github:aanogueira/camel-kamelets/catalog",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
@@ -52,7 +52,7 @@ func TestURIParse(t *testing.T) {
 			},
 		},
 		{
-			uri: "github:apache/camel-kamelets/catalog@v1.2.3",
+			uri: "github:aanogueira/camel-kamelets/catalog@v1.2.3",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
@@ -61,7 +61,7 @@ func TestURIParse(t *testing.T) {
 			},
 		},
 		{
-			uri: "github:apache/camel-kamelets@v1.2.3",
+			uri: "github:aanogueira/camel-kamelets@v1.2.3",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
@@ -73,7 +73,7 @@ func TestURIParse(t *testing.T) {
 			error: true,
 		},
 		{
-			uri: "github:apache/camel-kamelets/the/path@v1.2.3",
+			uri: "github:aanogueira/camel-kamelets/the/path@v1.2.3",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
@@ -82,7 +82,7 @@ func TestURIParse(t *testing.T) {
 			},
 		},
 		{
-			uri: "github:apache/camel-kamelets/the/path",
+			uri: "github:aanogueira/camel-kamelets/the/path",
 			repository: &githubKameletRepository{
 				owner: "apache",
 				repo:  "camel-kamelets",
@@ -90,7 +90,7 @@ func TestURIParse(t *testing.T) {
 			},
 		},
 		{
-			uri:   "zithub:apache/camel-kamelets/the/path",
+			uri:   "zithub:aanogueira/camel-kamelets/the/path",
 			error: true,
 		},
 		{
@@ -144,7 +144,7 @@ func TestNewRepository(t *testing.T) {
 
 func TestNewRepositoryWithCamelKamelets(t *testing.T) {
 	ctx := context.Background()
-	fakeClient := fake.NewSimpleClientset(createTestContext("github:apache/camel-kamelets")...)
+	fakeClient := fake.NewSimpleClientset(createTestContext("github:aanogueira/camel-kamelets")...)
 	repo, err := New(ctx, fakeClient, "test")
 	assert.NoError(t, err)
 	list, err := repo.List(ctx)

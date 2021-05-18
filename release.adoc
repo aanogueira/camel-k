@@ -155,8 +155,8 @@ Republish docker image in the Apache org on Docker Hub:
 ```
 # assuming logged in to docker hub
 docker pull camelk/camel-k:$VERSION
-docker tag camelk/camel-k:$VERSION apache/camel-k:$VERSION
-docker push apache/camel-k:$VERSION
+docker tag camelk/camel-k:$VERSION aanogueira/camel-k:$VERSION
+docker push aanogueira/camel-k:$VERSION
 ```
 
 Artifacts committed on https://dist.apache.org/repos/dist/dev/ before the voting process need to be copied to the

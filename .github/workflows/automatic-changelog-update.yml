@@ -27,7 +27,7 @@ jobs:
   generate_changelog:
     runs-on: ubuntu-20.04
     name: Generate changelog for main branch
-    if: github.ref == 'refs/heads/main' && github.repository == 'apache/camel-k'
+    if: github.ref == 'refs/heads/main' && github.repository == 'aanogueira/camel-k'
     steps:
       - name: "Checkout camel-k"
         uses: actions/checkout@v2

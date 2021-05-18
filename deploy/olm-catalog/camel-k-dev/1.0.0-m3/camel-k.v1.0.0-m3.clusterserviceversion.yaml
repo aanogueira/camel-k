@@ -66,7 +66,7 @@ metadata:
     capabilities: Basic Install
     categories: Integration & Delivery
     certified: "false"
-    containerImage: docker.io/apache/camel-k:1.0.0-M3
+    containerImage: docker.io/aanogueira/camel-k:1.0.0-M3
     createdAt: "2019-07-26T02:45:00Z"
     description: Apache Camel K is a lightweight integration platform, born on Kubernetes,
       with serverless superpowers.
@@ -185,7 +185,7 @@ spec:
                   valueFrom:
                     fieldRef:
                       fieldPath: metadata.namespace
-                image: docker.io/apache/camel-k:1.0.0-M3
+                image: docker.io/aanogueira/camel-k:1.0.0-M3
                 imagePullPolicy: IfNotPresent
                 name: camel-k-operator
                 resources: {}

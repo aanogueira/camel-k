@@ -34,7 +34,7 @@ fi
 make images-dev
 
 # Tag image
-docker tag apache/camel-k:$1 default-route-openshift-image-registry.apps-crc.testing/$project/camel-k:$1
+docker tag aanogueira/camel-k:$1 default-route-openshift-image-registry.apps-crc.testing/$project/camel-k:$1
 # Login to Docker registry
 if [ $user = "kube:admin" ]; then
   docker login -u kubeadmin -p $(oc whoami -t) default-route-openshift-image-registry.apps-crc.testing
