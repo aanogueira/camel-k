@@ -56,6 +56,26 @@ type KafkaTopicList struct {
 // +genclient:noStatus
 // +kubebuilder:object:root=true
 
+// KafkaUser is the duck of a KafkaUser
+type KafkaUser struct {
+	metav1.TypeMeta   `json:",inline"`
+	metav1.ObjectMeta `json:"metadata,omitempty"`
+}
+
+// +kubebuilder:object:root=true
+
+// KafkaUserList contains a list of KafkaUser
+type KafkaUserList struct {
+	metav1.TypeMeta `json:",inline"`
+	metav1.ListMeta `json:"metadata,omitempty"`
+	Items           []KafkaUser `json:"items"`
+}
+
+// +genclient
+// +genclient:onlyVerbs=get,list,watch
+// +genclient:noStatus
+// +kubebuilder:object:root=true
+
 // Kafka is the duck of a Kafka
 type Kafka struct {
 	metav1.TypeMeta   `json:",inline"`

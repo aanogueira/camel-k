@@ -46,6 +46,8 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&KafkaTopicList{},
 		&Kafka{},
 		&KafkaList{},
+		&KafkaUser{},
+		&KafkaUserList{},
 	)
 	metav1.AddToGroupVersion(scheme, SchemeGroupVersion)
 	return nil
