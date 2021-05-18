@@ -26,8 +26,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	. "github.com/apache/camel-k/e2e/support"
-	"github.com/apache/camel-k/pkg/apis/camel/v1"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 func TestKitTimerToLogFullBuild(t *testing.T) {

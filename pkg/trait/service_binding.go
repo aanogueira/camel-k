@@ -20,7 +20,7 @@ package trait
 import (
 	"fmt"
 
-	"github.com/apache/camel-k/pkg/util/reference"
+	"github.com/aanogueira/camel-k/pkg/util/reference"
 	corev1 "k8s.io/api/core/v1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -29,7 +29,7 @@ import (
 
 	sb "github.com/redhat-developer/service-binding-operator/api/v1alpha1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 // The Service Binding trait allows users to connect to Provisioned Services and ServiceBindings in Kubernetes:

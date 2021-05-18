@@ -21,15 +21,15 @@ import (
 	"context"
 	"testing"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/gzip"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/gzip"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 	"github.com/stretchr/testify/assert"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"github.com/apache/camel-k/pkg/util/test"
 )
 
 const (

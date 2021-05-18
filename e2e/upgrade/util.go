@@ -32,8 +32,8 @@ import (
 
 	olm "github.com/operator-framework/api/pkg/operators/v1alpha1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	"github.com/apache/camel-k/pkg/util/log"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 func clusterServiceVersion(conditions func(olm.ClusterServiceVersion) bool, ns string) func() *olm.ClusterServiceVersion {

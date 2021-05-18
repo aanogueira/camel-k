@@ -23,7 +23,7 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/apache/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/client"
 )
 
 // OperatorStartupOptionalTools tries to install optional tools at operator startup and warns if something goes wrong

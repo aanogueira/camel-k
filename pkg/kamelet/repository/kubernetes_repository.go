@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

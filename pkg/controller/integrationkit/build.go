@@ -29,9 +29,9 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // NewBuildAction creates a new build request handling action for the kit

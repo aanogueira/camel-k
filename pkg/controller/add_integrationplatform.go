@@ -17,7 +17,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/apache/camel-k/pkg/controller/integrationplatform"
+	"github.com/aanogueira/camel-k/pkg/controller/integrationplatform"
 )
 
 func init() {

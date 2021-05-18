@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/json"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 func ToJSON(value runtime.Object) ([]byte, error) {

@@ -27,10 +27,10 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 )
 
 func createKanikoCacheWarmerPod(ctx context.Context, client client.Client, platform *v1.IntegrationPlatform) error {

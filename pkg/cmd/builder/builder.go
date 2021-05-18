@@ -30,13 +30,13 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/cancellable"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	logger "github.com/apache/camel-k/pkg/util/log"
-	"github.com/apache/camel-k/pkg/util/patch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/cancellable"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	logger "github.com/aanogueira/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/patch"
 )
 
 var log = logger.WithName("builder")

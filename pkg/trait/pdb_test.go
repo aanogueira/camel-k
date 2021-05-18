@@ -27,8 +27,8 @@ import (
 	"k8s.io/api/policy/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func TestConfigurePdbTraitDoesSucceed(t *testing.T) {

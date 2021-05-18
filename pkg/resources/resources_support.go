@@ -24,7 +24,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 //

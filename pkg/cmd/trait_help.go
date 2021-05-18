@@ -29,10 +29,10 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/apache/camel-k/pkg/resources"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/indentedwriter"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/resources"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/indentedwriter"
 )
 
 func newTraitHelpCmd(rootCmdOptions *RootCmdOptions) (*cobra.Command, *traitHelpCommandOptions) {

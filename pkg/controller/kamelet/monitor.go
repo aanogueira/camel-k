@@ -20,8 +20,8 @@ package kamelet
 import (
 	"context"
 
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	kameletutils "github.com/apache/camel-k/pkg/kamelet"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	kameletutils "github.com/aanogueira/camel-k/pkg/kamelet"
 )
 
 // NewMonitorAction returns an action that monitors the kamelet after it's fully initialized

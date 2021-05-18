@@ -43,15 +43,15 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/flow"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	k8slog "github.com/apache/camel-k/pkg/util/kubernetes/log"
-	"github.com/apache/camel-k/pkg/util/sync"
-	"github.com/apache/camel-k/pkg/util/watch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/flow"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	k8slog "github.com/aanogueira/camel-k/pkg/util/kubernetes/log"
+	"github.com/aanogueira/camel-k/pkg/util/sync"
+	"github.com/aanogueira/camel-k/pkg/util/watch"
 )
 
 var (
@@ -505,7 +505,7 @@ func (o *runCmdOptions) updateIntegrationCode(c client.Client, sources []string,
 		}
 	}
 
-	err = resolvePodTemplate(context.Background(),o.PodTemplate, &integration.Spec)
+	err = resolvePodTemplate(context.Background(), o.PodTemplate, &integration.Spec)
 	if err != nil {
 		return nil, err
 	}
@@ -754,14 +754,14 @@ func resolvePodTemplate(ctx context.Context, templateSrc string, spec *v1.Integr
 	//template is inline
 	templateBytes := []byte(templateSrc)
 
-	jsonTemplate,err:= yaml.ToJSON(templateBytes)
-	if err!= nil {
+	jsonTemplate, err := yaml.ToJSON(templateBytes)
+	if err != nil {
 		jsonTemplate = templateBytes
 	}
 	err = json.Unmarshal(jsonTemplate, &template)
 
 	if err == nil {
-		spec.PodTemplate = &v1.PodSpecTemplate {
+		spec.PodTemplate = &v1.PodSpecTemplate{
 			Spec: template,
 		}
 	}

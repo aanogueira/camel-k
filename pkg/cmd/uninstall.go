@@ -30,9 +30,9 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/kubernetes/customclient"
-	"github.com/apache/camel-k/pkg/util/olm"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes/customclient"
+	"github.com/aanogueira/camel-k/pkg/util/olm"
 )
 
 func newCmdUninstall(rootCmdOptions *RootCmdOptions) (*cobra.Command, *uninstallCmdOptions) {

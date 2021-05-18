@@ -21,11 +21,11 @@ import (
 	"context"
 	"math"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/log"
-	"github.com/apache/camel-k/pkg/util/maven"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
 )
 
 const (

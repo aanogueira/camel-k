@@ -33,13 +33,13 @@ import (
 	duckv1 "knative.dev/pkg/apis/duck/v1"
 	serving "knative.dev/serving/pkg/apis/serving/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	knativeapi "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/envvar"
-	k8sutils "github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/test"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	knativeapi "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/envvar"
+	k8sutils "github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 )
 
 func TestKnativeEnvConfigurationFromTrait(t *testing.T) {

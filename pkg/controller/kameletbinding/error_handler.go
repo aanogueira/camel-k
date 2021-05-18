@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/util/bindings"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/util/bindings"
 	"github.com/pkg/errors"
 )
 

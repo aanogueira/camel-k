@@ -18,10 +18,10 @@ limitations under the License.
 package tracing
 
 import (
-	"github.com/apache/camel-k/addons/tracing/discovery"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/addons/tracing/discovery"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 // The Tracing trait can be used to automatically publish tracing information to an

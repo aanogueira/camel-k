@@ -34,11 +34,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 const (

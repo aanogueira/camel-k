@@ -23,8 +23,8 @@ import (
 	"context"
 	"time"
 
-	v1beta1 "github.com/apache/camel-k/addons/strimzi/duck/v1beta1"
-	scheme "github.com/apache/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset/scheme"
+	v1beta1 "github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1"
+	scheme "github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"

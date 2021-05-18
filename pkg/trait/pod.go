@@ -19,7 +19,7 @@ package trait
 
 import (
 	"fmt"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 	"k8s.io/api/batch/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/json"
@@ -90,7 +90,7 @@ func (t *podTrait) Apply(e *Environment) error {
 		e.Resources.VisitKnativeService(func(s *serving.Service) {
 			if s.Name == e.Integration.Name {
 				if patchedPodSpec, err = t.applyChangesTo(&s.Spec.Template.Spec.PodSpec, changes); err == nil {
-					s.Spec.Template.Spec.PodSpec = * patchedPodSpec
+					s.Spec.Template.Spec.PodSpec = *patchedPodSpec
 				}
 			}
 		})

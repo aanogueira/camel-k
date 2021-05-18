@@ -18,7 +18,7 @@ limitations under the License.
 package builder
 
 import (
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 func artifactIDs(artifacts []v1.Artifact) []string {

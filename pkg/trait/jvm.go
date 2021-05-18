@@ -34,9 +34,9 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/util"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 // The JVM trait is used to configure the JVM that runs the integration.

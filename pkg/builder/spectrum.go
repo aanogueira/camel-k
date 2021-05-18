@@ -28,9 +28,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/log"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 type spectrumTask struct {
@@ -106,7 +106,7 @@ func (t *spectrumTask) Do(ctx context.Context) v1.BuildStatus {
 
 	go readSpectrumLogs(newStdR)
 	digest, err := spectrum.Build(options, libraryPath+":"+path.Join(DeploymentDir, DependenciesDir))
-	
+
 	if err != nil {
 		return status.Failed(err)
 	}

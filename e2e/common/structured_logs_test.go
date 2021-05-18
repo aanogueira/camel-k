@@ -27,8 +27,8 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 func TestStructuredLogs(t *testing.T) {
@@ -55,4 +55,3 @@ func TestStructuredLogs(t *testing.T) {
 		Expect(Kamel("delete", "--all", "-n", ns).Execute()).To(Succeed())
 	})
 }
-

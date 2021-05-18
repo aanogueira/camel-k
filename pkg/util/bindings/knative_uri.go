@@ -22,10 +22,10 @@ import (
 	"net/url"
 	"strings"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	knativeapis "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/util/uri"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	knativeapis "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/util/uri"
 )
 
 // KnativeURIBindingProvider converts a HTTP/HTTPS URI into a Camel Knative endpoint (to call it via CloudEvents).

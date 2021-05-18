@@ -24,7 +24,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 const (

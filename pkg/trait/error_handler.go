@@ -18,8 +18,8 @@ limitations under the License.
 package trait
 
 import (
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
 	"gopkg.in/yaml.v2"
 )
 

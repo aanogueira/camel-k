@@ -20,7 +20,7 @@ limitations under the License.
 package scheme
 
 import (
-	kafkav1beta1 "github.com/apache/camel-k/addons/strimzi/duck/v1beta1"
+	kafkav1beta1 "github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

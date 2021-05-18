@@ -21,9 +21,9 @@ import (
 	"context"
 	"testing"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/test"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 
 	"github.com/stretchr/testify/assert"
 

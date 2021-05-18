@@ -28,8 +28,8 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/patch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/patch"
 )
 
 // The deployer trait can be used to explicitly select the kind of high level resource that

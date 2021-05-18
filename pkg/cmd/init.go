@@ -24,8 +24,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/apache/camel-k/pkg/resources"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/resources"
 	"github.com/spf13/cobra"
 )
 

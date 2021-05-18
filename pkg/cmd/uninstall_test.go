@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/camel-k/pkg/util/test"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 	"github.com/spf13/cobra"
 )
 

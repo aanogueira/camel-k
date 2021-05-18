@@ -36,8 +36,8 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	. "github.com/apache/camel-k/e2e/support"
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 func TestPodDisruptionBudgetTrait(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 func TestConfigureTolerationTraitMissingTaint(t *testing.T) {

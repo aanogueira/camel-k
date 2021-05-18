@@ -26,10 +26,10 @@ import (
 
 	appsv1 "k8s.io/api/apps/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func newTestProbesEnv(t *testing.T, provider v1.RuntimeProvider) Environment {

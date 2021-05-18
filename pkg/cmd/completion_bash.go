@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"strings"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 
-	"github.com/apache/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/platform"
 
-	"github.com/apache/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/trait"
 
-	"github.com/apache/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
 	"github.com/spf13/cobra"
 )
 

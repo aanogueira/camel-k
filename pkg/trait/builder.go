@@ -20,8 +20,8 @@ package trait
 import (
 	"sort"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
 )
 
 // The builder trait is internally used to determine the best strategy to

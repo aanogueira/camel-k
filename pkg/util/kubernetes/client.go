@@ -26,8 +26,8 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
 )
 
 func GetIntegrationPlatform(context context.Context, client ctrl.Reader, name string, namespace string) (*v1.IntegrationPlatform, error) {

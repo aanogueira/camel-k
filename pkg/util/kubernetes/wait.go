@@ -27,7 +27,7 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apache/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/client"
 )
 
 // ResourceRetrieveFunction --

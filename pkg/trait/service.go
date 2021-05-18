@@ -21,9 +21,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/metadata"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/metadata"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // The Service trait exposes the integration with a Service resource so that it can be accessed by other applications

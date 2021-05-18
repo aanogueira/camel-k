@@ -29,10 +29,10 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 const kameletDirEnv = "KAMELET_CATALOG_DIR"

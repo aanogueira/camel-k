@@ -20,9 +20,9 @@ package knative
 import (
 	"context"
 
-	"github.com/apache/camel-k/pkg/client"
-	kubernetesutils "github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/client"
+	kubernetesutils "github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"

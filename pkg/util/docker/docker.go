@@ -22,8 +22,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 	"github.com/pkg/errors"
 )
 

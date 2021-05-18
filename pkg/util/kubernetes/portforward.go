@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/watch"

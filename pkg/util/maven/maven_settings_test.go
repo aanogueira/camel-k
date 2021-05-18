@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 const expectedSettings = `<?xml version="1.0" encoding="UTF-8"?>

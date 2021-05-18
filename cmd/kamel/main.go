@@ -23,9 +23,9 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/apache/camel-k/addons"
-	_ "github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/cmd"
+	_ "github.com/aanogueira/camel-k/addons"
+	_ "github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/cmd"
 
 	_ "k8s.io/client-go/plugin/pkg/client/auth/azure"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"

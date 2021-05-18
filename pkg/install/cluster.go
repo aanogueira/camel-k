@@ -33,9 +33,9 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/resources"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/resources"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func SetupClusterWideResourcesOrCollect(ctx context.Context, clientProvider client.Provider, collection *kubernetes.Collection, clusterType string, force bool) error {

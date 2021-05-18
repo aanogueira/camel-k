@@ -20,8 +20,9 @@ package kubernetes
 import (
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/apache/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/client"
 )
+
 func IsAPIResourceInstalled(c client.Client, groupVersion string, kind string) (bool, error) {
 	resources, err := c.Discovery().ServerResourcesForGroupVersion(groupVersion)
 	if err != nil {

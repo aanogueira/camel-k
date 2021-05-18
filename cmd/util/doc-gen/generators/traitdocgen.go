@@ -33,8 +33,8 @@ import (
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/types"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
 )
 
 const (

@@ -32,8 +32,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 var Log = log.WithName("maven")

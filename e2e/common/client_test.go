@@ -30,9 +30,9 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	. "github.com/apache/camel-k/e2e/support"
-	"github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
 )
 
 func TestClientFunctionalities(t *testing.T) {

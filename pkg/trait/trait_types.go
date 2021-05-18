@@ -33,13 +33,13 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/log"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 // True --

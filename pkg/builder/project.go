@@ -20,9 +20,9 @@ package builder
 import (
 	"os"
 
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/jvm"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/jvm"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func init() {

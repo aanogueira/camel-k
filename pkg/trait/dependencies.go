@@ -20,10 +20,10 @@ package trait
 import (
 	"github.com/scylladb/go-set/strset"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/metadata"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/metadata"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // The Dependencies trait is internally used to automatically add runtime dependencies based on the

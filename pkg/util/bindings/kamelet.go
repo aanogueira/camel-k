@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 

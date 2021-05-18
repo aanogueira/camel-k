@@ -28,7 +28,7 @@ import (
 	apiextensionsv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	clientscheme "k8s.io/client-go/kubernetes/scheme"
 
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func main() {

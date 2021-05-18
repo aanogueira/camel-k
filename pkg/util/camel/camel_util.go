@@ -23,8 +23,8 @@ import (
 
 	"github.com/Masterminds/semver"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/log"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 func findBestMatch(catalogs []v1.CamelCatalog, runtime v1.RuntimeSpec) (*RuntimeCatalog, error) {

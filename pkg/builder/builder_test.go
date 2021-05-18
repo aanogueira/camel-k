@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/cancellable"
-	"github.com/apache/camel-k/pkg/util/test"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/cancellable"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 )
 
 type errorTestSteps struct {

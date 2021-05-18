@@ -20,10 +20,10 @@ package integrationplatform
 import (
 	"context"
 
-	"github.com/apache/camel-k/pkg/resources"
+	"github.com/aanogueira/camel-k/pkg/resources"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/install"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/install"
 )
 
 // NewCreateAction returns a action that creates resources needed by the platform

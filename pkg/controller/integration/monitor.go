@@ -25,10 +25,10 @@ import (
 
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/digest"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/digest"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // NewMonitorAction creates a new monitoring action for an integration
@@ -99,9 +99,8 @@ func (action *monitorAction) Handle(ctx context.Context, integration *v1.Integra
 	previous := integration.Status.GetCondition(v1.IntegrationConditionReady)
 	kubernetes.MirrorReadyCondition(ctx, action.client, integration)
 
-	if next := integration.Status.GetCondition(v1.IntegrationConditionReady);
-		(previous == nil || previous.FirstTruthyTime == nil || previous.FirstTruthyTime.IsZero()) &&
-			next != nil && next.Status == corev1.ConditionTrue && !(next.FirstTruthyTime == nil || next.FirstTruthyTime.IsZero()) {
+	if next := integration.Status.GetCondition(v1.IntegrationConditionReady); (previous == nil || previous.FirstTruthyTime == nil || previous.FirstTruthyTime.IsZero()) &&
+		next != nil && next.Status == corev1.ConditionTrue && !(next.FirstTruthyTime == nil || next.FirstTruthyTime.IsZero()) {
 		// Observe the time to first readiness metric
 		duration := next.FirstTruthyTime.Time.Sub(integration.Status.InitializationTimestamp.Time)
 		action.L.Infof("First readiness after %s", duration)

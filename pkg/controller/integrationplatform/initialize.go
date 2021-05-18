@@ -25,10 +25,10 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	platformutil "github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	platformutil "github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 )
 
 // NewInitializeAction returns a action that initializes the platform configuration when not provided by the user

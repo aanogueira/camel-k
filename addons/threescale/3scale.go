@@ -20,8 +20,8 @@ package threescale
 import (
 	"strconv"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

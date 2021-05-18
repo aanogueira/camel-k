@@ -24,8 +24,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/docker"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/docker"
 )
 
 func formatRoutes(files []string) []string {

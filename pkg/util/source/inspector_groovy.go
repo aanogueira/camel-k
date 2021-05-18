@@ -18,8 +18,8 @@ limitations under the License.
 package source
 
 import (
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 type GroovyInspector struct {

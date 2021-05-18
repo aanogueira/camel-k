@@ -21,12 +21,12 @@ package strimzi
 import (
 	"fmt"
 
-	"github.com/apache/camel-k/addons/strimzi/duck/v1beta1"
-	"github.com/apache/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset"
-	typedclient "github.com/apache/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset/typed/duck/v1beta1"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/util/bindings"
-	"github.com/apache/camel-k/pkg/util/uri"
+	"github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1"
+	"github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset"
+	typedclient "github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1/client/internalclientset/typed/duck/v1beta1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/util/bindings"
+	"github.com/aanogueira/camel-k/pkg/util/uri"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

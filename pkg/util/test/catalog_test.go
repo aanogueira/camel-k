@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 )
 
 func TestRuntimeContainsEmbeddedArtifacts(t *testing.T) {

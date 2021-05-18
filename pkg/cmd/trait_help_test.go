@@ -22,7 +22,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/apache/camel-k/pkg/util/test"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 )
 
 func TestHelpForNonExistentTrait(t *testing.T) {

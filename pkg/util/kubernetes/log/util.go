@@ -23,7 +23,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 
 	"k8s.io/client-go/kubernetes"
 )

@@ -23,9 +23,9 @@ import (
 	"os"
 	"testing"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/test"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

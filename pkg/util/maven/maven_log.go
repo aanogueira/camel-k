@@ -19,7 +19,7 @@ package maven
 
 import (
 	"encoding/json"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 type MavenLog struct {

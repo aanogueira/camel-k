@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"net/url"
 
-	knativeapis "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/util/knative"
-	"github.com/apache/camel-k/pkg/util/uri"
+	knativeapis "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/util/knative"
+	"github.com/aanogueira/camel-k/pkg/util/uri"
 )
 
 // KnativeRefBindingProvider converts a reference to a Kubernetes object into a Camel URI.
@@ -68,7 +68,7 @@ func (k KnativeRefBindingProvider) Translate(ctx BindingContext, endpointCtx End
 
 	var serviceURI string
 	if *serviceType == knativeapis.CamelServiceTypeEvent {
-		// TODO enable this when the runtime will support changing the broker name (https://github.com/apache/camel-k-runtime/issues/535)
+		// TODO enable this when the runtime will support changing the broker name (https://github.com/aanogueira/camel-k-runtime/issues/535)
 		//if props["name"] == "" {
 		//	props["name"] = e.Ref.Name
 		//}
@@ -78,7 +78,7 @@ func (k KnativeRefBindingProvider) Translate(ctx BindingContext, endpointCtx End
 			serviceURI = fmt.Sprintf("knative:%s/%s", *serviceType, eventType)
 		} else {
 			if endpointCtx.Type == v1alpha1.EndpointTypeSink || endpointCtx.Type == v1alpha1.EndpointTypeAction {
-				// Allowing no event type, but it can fail. See https://github.com/apache/camel-k-runtime/issues/536
+				// Allowing no event type, but it can fail. See https://github.com/aanogueira/camel-k-runtime/issues/536
 				serviceURI = fmt.Sprintf("knative:%s", *serviceType)
 			} else {
 				return nil, errors.New(`property "type" must be provided when reading from the Broker`)

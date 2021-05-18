@@ -18,8 +18,8 @@ limitations under the License.
 package addons
 
 import (
-	"github.com/apache/camel-k/addons/tracing"
-	"github.com/apache/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/addons/tracing"
+	"github.com/aanogueira/camel-k/pkg/trait"
 )
 
 func init() {

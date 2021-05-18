@@ -22,7 +22,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	serving "knative.dev/serving/pkg/apis/serving/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 // The Owner trait ensures that all created resources belong to the integration being created

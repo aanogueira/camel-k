@@ -34,14 +34,14 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/digest"
-	"github.com/apache/camel-k/pkg/util/gzip"
-	"github.com/apache/camel-k/pkg/util/jvm"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/maven"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/digest"
+	"github.com/aanogueira/camel-k/pkg/util/gzip"
+	"github.com/aanogueira/camel-k/pkg/util/jvm"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
 )
 
 // The OpenAPI DSL trait is internally used to allow creating integrations from a OpenAPI specs.

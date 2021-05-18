@@ -35,9 +35,9 @@ import (
 	"k8s.io/client-go/restmapper"
 	"k8s.io/client-go/scale"
 
-	. "github.com/apache/camel-k/e2e/support"
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
 )
 
 func TestIntegrationScale(t *testing.T) {

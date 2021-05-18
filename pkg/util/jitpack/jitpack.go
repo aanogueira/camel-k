@@ -20,7 +20,7 @@ package jitpack
 import (
 	"strings"
 
-	"github.com/apache/camel-k/pkg/util/maven"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
 )
 
 const RepoURL = "https://jitpack.io"

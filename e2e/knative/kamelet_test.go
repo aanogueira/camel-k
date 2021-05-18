@@ -30,8 +30,8 @@ import (
 
 	messaging "knative.dev/eventing/pkg/apis/messaging/v1beta1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 // Test that kamelet binding can be changed and changes propagated to integrations

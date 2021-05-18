@@ -18,8 +18,8 @@ limitations under the License.
 package addons
 
 import (
-	"github.com/apache/camel-k/addons/threescale"
-	"github.com/apache/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/addons/threescale"
+	"github.com/aanogueira/camel-k/pkg/trait"
 )
 
 func init() {

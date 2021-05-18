@@ -24,10 +24,10 @@ import (
 	"net/url"
 	"testing"
 
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	knativeapis "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/util/test"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	knativeapis "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 )

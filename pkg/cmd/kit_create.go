@@ -26,10 +26,10 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 func newKitCreateCmd(rootCmdOptions *RootCmdOptions) (*cobra.Command, *kitCreateCommandOptions) {

@@ -24,7 +24,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 // DefaultMavenRepositories is a comma separated list of default maven repositories

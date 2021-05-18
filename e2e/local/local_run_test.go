@@ -27,8 +27,8 @@ import (
 	"github.com/golangplus/testing/assert"
 	. "github.com/onsi/gomega"
 
-	. "github.com/apache/camel-k/e2e/support"
-	"github.com/apache/camel-k/e2e/support/util"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	"github.com/aanogueira/camel-k/e2e/support/util"
 )
 
 func TestLocalRun(t *testing.T) {

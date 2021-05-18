@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/modeline"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/modeline"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

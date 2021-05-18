@@ -35,14 +35,14 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/resources"
-	"github.com/apache/camel-k/pkg/util/envvar"
-	"github.com/apache/camel-k/pkg/util/knative"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/minikube"
-	"github.com/apache/camel-k/pkg/util/patch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/resources"
+	"github.com/aanogueira/camel-k/pkg/util/envvar"
+	"github.com/aanogueira/camel-k/pkg/util/knative"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/minikube"
+	"github.com/aanogueira/camel-k/pkg/util/patch"
 )
 
 // OperatorConfiguration --

@@ -27,12 +27,12 @@ import (
 
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/resources"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/jvm"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/maven"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/resources"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/jvm"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
 )
 
 func DefaultCatalog() (*RuntimeCatalog, error) {

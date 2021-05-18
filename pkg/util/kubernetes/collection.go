@@ -33,7 +33,7 @@ import (
 
 	routev1 "github.com/openshift/api/route/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 // A Collection is a container of Kubernetes resources

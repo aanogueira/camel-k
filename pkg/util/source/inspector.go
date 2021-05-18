@@ -21,9 +21,9 @@ import (
 	"regexp"
 	"strings"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/camel"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
 )
 
 type catalog2deps func(*camel.RuntimeCatalog) []string

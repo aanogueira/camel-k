@@ -57,19 +57,19 @@ import (
 	projectv1 "github.com/openshift/api/project/v1"
 	routev1 "github.com/openshift/api/route/v1"
 
-	"github.com/apache/camel-k/e2e/support/util"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/cmd"
-	"github.com/apache/camel-k/pkg/install"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/log"
-	"github.com/apache/camel-k/pkg/util/openshift"
+	"github.com/aanogueira/camel-k/e2e/support/util"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/cmd"
+	"github.com/aanogueira/camel-k/pkg/install"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/openshift"
 
 	// let's enable addons in all tests
-	_ "github.com/apache/camel-k/addons"
+	_ "github.com/aanogueira/camel-k/addons"
 )
 
 const kubeConfigEnvVar = "KUBECONFIG"

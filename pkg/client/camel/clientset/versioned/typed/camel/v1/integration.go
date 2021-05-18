@@ -23,8 +23,8 @@ import (
 	"context"
 	"time"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	scheme "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/scheme"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	scheme "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/scheme"
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

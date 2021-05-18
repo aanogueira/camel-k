@@ -37,9 +37,9 @@ import (
 	"github.com/operator-framework/api/pkg/lib/version"
 	olm "github.com/operator-framework/api/pkg/operators/v1alpha1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 )
 
 const catalogSourceName = "test-camel-k-source"

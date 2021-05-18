@@ -21,7 +21,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/apache/camel-k/pkg/apis/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1"
 )
 
 var bindingProviders []BindingProvider

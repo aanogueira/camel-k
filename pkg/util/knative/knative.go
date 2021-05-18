@@ -40,8 +40,8 @@ import (
 	"knative.dev/pkg/tracker"
 	serving "knative.dev/serving/pkg/apis/serving/v1"
 
-	"github.com/apache/camel-k/pkg/client"
-	util "github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/client"
+	util "github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // CreateSubscription ---

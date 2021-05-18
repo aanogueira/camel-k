@@ -18,7 +18,7 @@ limitations under the License.
 package trait
 
 import (
-	"github.com/apache/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/builder"
 )
 
 // The Quarkus trait activates the Quarkus runtime.

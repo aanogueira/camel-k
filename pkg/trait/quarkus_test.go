@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	"github.com/apache/camel-k/pkg/util/camel"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
 )
 
 func TestConfigureQuarkusTraitShouldSucceed(t *testing.T) {

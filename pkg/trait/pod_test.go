@@ -1,8 +1,8 @@
 package trait
 
 import (
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 	appsv1 "k8s.io/api/apps/v1"
@@ -38,10 +38,10 @@ func TestSimpleChange(t *testing.T) {
 func TestMergeArrays(t *testing.T) {
 	templateString :=
 		"{containers: [{name: second-container, " +
-		"env: [{name: SOME_VARIABLE, value: SOME_VALUE}, {name: SOME_VARIABLE2, value: SOME_VALUE2}]}, " +
-		"{name: integration, env: [{name: TEST_ADDED_CUSTOM_VARIABLE, value: value}]}" +
-		"]" +
-		"}"
+			"env: [{name: SOME_VARIABLE, value: SOME_VALUE}, {name: SOME_VARIABLE2, value: SOME_VALUE2}]}, " +
+			"{name: integration, env: [{name: TEST_ADDED_CUSTOM_VARIABLE, value: value}]}" +
+			"]" +
+			"}"
 	templateSpec := testPodTemplateSpec(t, templateString)
 
 	assert.NotNil(t, getContainer(templateSpec.Spec.Containers, "second-container"))

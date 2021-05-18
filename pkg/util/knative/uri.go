@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"regexp"
 
-	knativev1 "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	uriutils "github.com/apache/camel-k/pkg/util/uri"
+	knativev1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	uriutils "github.com/aanogueira/camel-k/pkg/util/uri"
 	v1 "k8s.io/api/core/v1"
 )
 

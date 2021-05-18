@@ -33,15 +33,15 @@ import (
 
 	ctrl "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/install"
-	"github.com/apache/camel-k/pkg/kamelet/repository"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/log"
-	"github.com/apache/camel-k/pkg/util/maven"
-	"github.com/apache/camel-k/pkg/util/openshift"
-	"github.com/apache/camel-k/pkg/util/patch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/install"
+	"github.com/aanogueira/camel-k/pkg/kamelet/repository"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
+	"github.com/aanogueira/camel-k/pkg/util/openshift"
+	"github.com/aanogueira/camel-k/pkg/util/patch"
 )
 
 // BuilderServiceAccount --

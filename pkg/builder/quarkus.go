@@ -26,11 +26,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/camel"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/digest"
-	"github.com/apache/camel-k/pkg/util/maven"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/camel"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/digest"
+	"github.com/aanogueira/camel-k/pkg/util/maven"
 )
 
 func init() {

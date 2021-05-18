@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 func newCmdLocalBuild(rootCmdOptions *RootCmdOptions) (*cobra.Command, *localBuildCmdOptions) {

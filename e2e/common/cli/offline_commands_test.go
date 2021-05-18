@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/apache/camel-k/e2e/support"
+	. "github.com/aanogueira/camel-k/e2e/support"
 )
 
 func TestKamelVersionWorksOffline(t *testing.T) {

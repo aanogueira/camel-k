@@ -26,9 +26,9 @@ import (
 
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/util/defaults"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
 )
 
 // VersionVariant may be overridden at build time
@@ -94,9 +94,9 @@ func displayOperatorVersion(ctx context.Context, c client.Client, namespace stri
 		fmt.Printf("Unable to retrieve operator version: %s\n", err)
 	} else {
 		if operatorVersion == "" {
-		  fmt.Printf("Unable to retrieve operator version: The IntegrationPlatform resource hasn't been reconciled yet!")
+			fmt.Printf("Unable to retrieve operator version: The IntegrationPlatform resource hasn't been reconciled yet!")
 		} else {
-		  fmt.Printf("Camel K Operator %s\n", operatorVersion)
+			fmt.Printf("Camel K Operator %s\n", operatorVersion)
 		}
 	}
 }

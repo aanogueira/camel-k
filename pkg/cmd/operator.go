@@ -20,7 +20,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/apache/camel-k/pkg/cmd/operator"
+	"github.com/aanogueira/camel-k/pkg/cmd/operator"
 )
 
 const operatorCommand = "operator"

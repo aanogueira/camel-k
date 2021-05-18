@@ -20,10 +20,10 @@ package build
 import (
 	"context"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	camelevent "github.com/apache/camel-k/pkg/event"
-	"github.com/apache/camel-k/pkg/util/log"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	camelevent "github.com/aanogueira/camel-k/pkg/event"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 	"k8s.io/client-go/tools/record"
 )
 

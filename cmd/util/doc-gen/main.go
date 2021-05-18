@@ -18,11 +18,11 @@ limitations under the License.
 package main
 
 import (
-	"github.com/apache/camel-k/cmd/util/doc-gen/generators"
+	"github.com/aanogueira/camel-k/cmd/util/doc-gen/generators"
 	"github.com/spf13/pflag"
 	"k8s.io/gengo/args"
 
-	_ "github.com/apache/camel-k/addons"
+	_ "github.com/aanogueira/camel-k/addons"
 )
 
 func main() {

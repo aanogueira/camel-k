@@ -20,8 +20,8 @@ package integration
 import (
 	"context"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util/digest"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util/digest"
 )
 
 // NewErrorAction creates a new error action for an integration

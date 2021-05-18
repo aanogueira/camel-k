@@ -20,7 +20,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/apache/camel-k/pkg/util/test"
+	"github.com/aanogueira/camel-k/pkg/util/test"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

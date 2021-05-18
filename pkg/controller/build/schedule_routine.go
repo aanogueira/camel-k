@@ -31,10 +31,10 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/builder"
-	camelevent "github.com/apache/camel-k/pkg/event"
-	"github.com/apache/camel-k/pkg/util/patch"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/builder"
+	camelevent "github.com/aanogueira/camel-k/pkg/event"
+	"github.com/aanogueira/camel-k/pkg/util/patch"
 )
 
 // NewScheduleRoutineAction creates a new schedule routine action

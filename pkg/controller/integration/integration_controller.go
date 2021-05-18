@@ -39,14 +39,14 @@ import (
 
 	sb "github.com/redhat-developer/service-binding-operator/api/v1alpha1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/client"
-	camelevent "github.com/apache/camel-k/pkg/event"
-	"github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util/digest"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
-	"github.com/apache/camel-k/pkg/util/log"
-	"github.com/apache/camel-k/pkg/util/monitoring"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/client"
+	camelevent "github.com/aanogueira/camel-k/pkg/event"
+	"github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util/digest"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/util/monitoring"
 )
 
 // Add creates a new Integration Controller and adds it to the Manager. The Manager will set fields on the Controller

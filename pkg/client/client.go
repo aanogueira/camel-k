@@ -22,8 +22,8 @@ import (
 	"os"
 	"path/filepath"
 
-	camelv1 "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1"
-	camelv1alpha1 "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1alpha1"
+	camelv1 "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1"
+	camelv1alpha1 "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1alpha1"
 	user "github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -43,8 +43,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/apache/camel-k/pkg/apis"
-	camel "github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
+	"github.com/aanogueira/camel-k/pkg/apis"
+	camel "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
 )
 
 const (

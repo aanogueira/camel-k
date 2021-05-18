@@ -26,7 +26,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/apache/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/client"
 )
 
 const (

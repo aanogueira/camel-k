@@ -36,13 +36,13 @@ import (
 	eventing "knative.dev/eventing/pkg/apis/eventing/v1beta1"
 	serving "knative.dev/serving/pkg/apis/serving/v1"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	knativeapi "github.com/apache/camel-k/pkg/apis/camel/v1/knative"
-	"github.com/apache/camel-k/pkg/metadata"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/envvar"
-	knativeutil "github.com/apache/camel-k/pkg/util/knative"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	knativeapi "github.com/aanogueira/camel-k/pkg/apis/camel/v1/knative"
+	"github.com/aanogueira/camel-k/pkg/metadata"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/envvar"
+	knativeutil "github.com/aanogueira/camel-k/pkg/util/knative"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // The Knative trait automatically discovers addresses of Knative resources and inject them into the

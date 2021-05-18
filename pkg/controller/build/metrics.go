@@ -25,7 +25,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 )
 
 const buildResultLabel = "result"

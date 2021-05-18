@@ -31,10 +31,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util/openshift"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util/openshift"
 )
 
 func TestRunGlobalInstall(t *testing.T) {

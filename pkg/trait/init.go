@@ -22,9 +22,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	v1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	"github.com/apache/camel-k/pkg/util"
-	"github.com/apache/camel-k/pkg/util/flow"
+	v1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
+	"github.com/aanogueira/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util/flow"
 )
 
 const flowsInternalSourceName = "camel-k-embedded-flow.yaml"

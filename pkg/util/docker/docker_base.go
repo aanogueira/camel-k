@@ -21,7 +21,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/apache/camel-k/pkg/util"
+	"github.com/aanogueira/camel-k/pkg/util"
 )
 
 // RegistryName -- the docker registry name.

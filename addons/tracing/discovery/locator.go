@@ -19,9 +19,9 @@ package discovery
 
 import (
 	"context"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/trait"
-	"github.com/apache/camel-k/pkg/util/log"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/trait"
+	"github.com/aanogueira/camel-k/pkg/util/log"
 )
 
 // TracingLocators contains available tracing locators

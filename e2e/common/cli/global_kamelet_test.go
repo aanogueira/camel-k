@@ -30,8 +30,8 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	. "github.com/apache/camel-k/e2e/support"
-	"github.com/apache/camel-k/pkg/util/openshift"
+	. "github.com/aanogueira/camel-k/e2e/support"
+	"github.com/aanogueira/camel-k/pkg/util/openshift"
 )
 
 func TestRunGlobalKamelet(t *testing.T) {

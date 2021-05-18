@@ -18,8 +18,8 @@ limitations under the License.
 package strimzi
 
 import (
-	"github.com/apache/camel-k/addons/strimzi/duck/v1beta1"
-	"github.com/apache/camel-k/pkg/apis"
+	"github.com/aanogueira/camel-k/addons/strimzi/duck/v1beta1"
+	"github.com/aanogueira/camel-k/pkg/apis"
 )
 
 func init() {

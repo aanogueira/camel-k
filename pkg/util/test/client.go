@@ -20,12 +20,12 @@ package test
 import (
 	"strings"
 
-	"github.com/apache/camel-k/pkg/apis"
-	"github.com/apache/camel-k/pkg/client"
-	camel "github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
-	fakecamelclientset "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/fake"
-	camelv1 "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1"
-	camelv1alpha1 "github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1alpha1"
+	"github.com/aanogueira/camel-k/pkg/apis"
+	"github.com/aanogueira/camel-k/pkg/client"
+	camel "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
+	fakecamelclientset "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/fake"
+	camelv1 "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1"
+	camelv1alpha1 "github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1alpha1"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

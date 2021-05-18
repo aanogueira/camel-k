@@ -22,7 +22,7 @@ package fake
 import (
 	"context"
 
-	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
+	camelv1 "github.com/aanogueira/camel-k/pkg/apis/camel/v1"
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"

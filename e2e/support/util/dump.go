@@ -28,9 +28,9 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 // Dump prints all information about the given namespace to debug errors

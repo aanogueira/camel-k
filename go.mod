@@ -8,6 +8,10 @@ require (
 	github.com/aanogueira/camel-k/pkg/apis/camel v0.0.0
 	github.com/aanogueira/camel-k/pkg/client/camel v0.0.0
 	github.com/aanogueira/camel-k/pkg/kamelet/repository v0.0.0
+	github.com/aanogueira/camel-k v1.4.0
+	github.com/aanogueira/camel-k/pkg/apis/camel v1.4.0
+	github.com/aanogueira/camel-k/pkg/client/camel v1.4.0
+	github.com/aanogueira/camel-k/pkg/kamelet/repository v1.4.0
 	github.com/container-tools/spectrum v0.3.4
 	github.com/containerd/continuity v0.0.0-20210208174643-50096c924a4e // indirect
 	github.com/evanphx/json-patch v4.9.0+incompatible

@@ -39,14 +39,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
 
-	"github.com/apache/camel-k/pkg/apis"
-	"github.com/apache/camel-k/pkg/client"
-	"github.com/apache/camel-k/pkg/controller"
-	"github.com/apache/camel-k/pkg/event"
-	"github.com/apache/camel-k/pkg/install"
-	"github.com/apache/camel-k/pkg/platform"
-	"github.com/apache/camel-k/pkg/util/defaults"
-	"github.com/apache/camel-k/pkg/util/kubernetes"
+	"github.com/aanogueira/camel-k/pkg/apis"
+	"github.com/aanogueira/camel-k/pkg/client"
+	"github.com/aanogueira/camel-k/pkg/controller"
+	"github.com/aanogueira/camel-k/pkg/event"
+	"github.com/aanogueira/camel-k/pkg/install"
+	"github.com/aanogueira/camel-k/pkg/platform"
+	"github.com/aanogueira/camel-k/pkg/util/defaults"
+	"github.com/aanogueira/camel-k/pkg/util/kubernetes"
 )
 
 var log = logf.Log.WithName("cmd")
