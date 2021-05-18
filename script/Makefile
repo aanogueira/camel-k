@@ -35,7 +35,7 @@ STAGING_IMAGE_NAME := docker.io/camelk/camel-k
 STAGING_RUNTIME_REPO :=
 
 # Define here the repo containing the default Kamelet catalog (if any)
-KAMELET_CATALOG_REPO := https://github.com/apache/camel-kamelets.git
+KAMELET_CATALOG_REPO := https://github.com/aanogueira/camel-kamelets.git
 # Optional branch for the default Kamelet catalog (change this to a tag before release)
 KAMELET_CATALOG_REPO_BRANCH := main
 
@@ -44,13 +44,13 @@ KAMELET_CATALOG_REPO_BRANCH := main
 PACKAGE_ARTIFACTS_STRATEGY := copy
 
 # OLM (Operator Lifecycle Manager and Operator Hub): uncomment to override operator settings at build time
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultOperatorName=camel-k-operator
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultPackage=camel-k
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultChannel=alpha
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultSource=community-operators
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultSourceNamespace=openshift-marketplace
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultStartingCSV=
-#GOLDFLAGS += -X github.com/apache/camel-k/pkg/util/olm.DefaultGlobalNamespace=openshift-operators
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultOperatorName=camel-k-operator
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultPackage=camel-k
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultChannel=alpha
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultSource=community-operators
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultSourceNamespace=openshift-marketplace
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultStartingCSV=
+#GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/util/olm.DefaultGlobalNamespace=openshift-operators
 
 # Get the currently used golang install path (in GOPATH/bin, unless GOBIN is set)
 ifeq (,$(shell go env GOBIN))
@@ -60,7 +60,7 @@ GOBIN=$(shell go env GOBIN)
 endif
 
 # Build
-GOLDFLAGS += -X github.com/apache/camel-k/pkg/cmd/operator.GitCommit=$(GIT_COMMIT)
+GOLDFLAGS += -X github.com/aanogueira/camel-k/pkg/cmd/operator.GitCommit=$(GIT_COMMIT)
 GOFLAGS = -ldflags "$(GOLDFLAGS)" -trimpath
 
 define LICENSE_HEADER
@@ -178,7 +178,7 @@ test-upgrade: build
 
 build-kamel:
 # Ensure the binary is statically linked when building on Linux due to ABI changes in newer glibc 2.32, otherwise
-# it would not run on older versions. See https://github.com/apache/camel-k/pull/2141#issuecomment-800990117
+# it would not run on older versions. See https://github.com/aanogueira/camel-k/pull/2141#issuecomment-800990117
 ifeq ($(shell uname -s 2>/dev/null || echo Unknown),Linux)
 	CGO_ENABLED=0 go build $(GOFLAGS) -o kamel ./cmd/kamel/*.go
 else

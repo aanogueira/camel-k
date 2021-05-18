@@ -85,5 +85,5 @@ We'd like to hear your feedback and we love any kind of contribution!
 The main contact points for the Camel K project are the [GitHub repository][1]
 and the [Chat room][2].
 
-[1]: https://github.com/apache/camel-k
+[1]: https://github.com/aanogueira/camel-k
 [2]: https://camel.zulipchat.com

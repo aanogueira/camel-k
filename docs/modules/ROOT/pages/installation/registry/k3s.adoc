@@ -40,7 +40,7 @@ Although K3s does not come with a private registry, one can be installed by foll
 
 With the secret created on the cluster, we can install Camel K and tell it to use those credentials when pushing the integrations.
 
-You can now download *kamel* CLI tool from https://github.com/apache/camel-k/releases[release page]
+You can now download *kamel* CLI tool from https://github.com/aanogueira/camel-k/releases[release page]
 and put it on your system path.
 
 After configure *kamel* CLI, you can execute the following command to install it on the namespace and configured to use your private registry:

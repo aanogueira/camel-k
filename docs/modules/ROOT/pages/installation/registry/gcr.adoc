@@ -24,7 +24,7 @@ After the renaming, execute the following command to create the secret:
 kubectl create secret generic kaniko-secret --from-file=kaniko-secret.json
 ```
 
-Ensure you have the https://github.com/apache/camel-k/releases[*kamel* CLI] on your system path.
+Ensure you have the https://github.com/aanogueira/camel-k/releases[*kamel* CLI] on your system path.
 
 You should now execute the following command to install cluster resources and the operator (in the current namespace):
 

@@ -100,7 +100,7 @@ jobs:
     - name: Get Kamel CLI
       run: |
         export KAMEL_VERSION=$(make get-last-released-version)
-        curl -L https://github.com/apache/camel-k/releases/download/v${KAMEL_VERSION}/camel-k-client-${KAMEL_VERSION}-linux-64bit.tar.gz -o kamel.tar.gz
+        curl -L https://github.com/aanogueira/camel-k/releases/download/v${KAMEL_VERSION}/camel-k-client-${KAMEL_VERSION}-linux-64bit.tar.gz -o kamel.tar.gz
         tar -zxf kamel.tar.gz
         sudo mv kamel /usr/local/bin/
     - name: Build Operator

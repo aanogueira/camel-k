@@ -763,7 +763,7 @@ spec:
 
 === Step 7: add metadata and sugar
 
-We should complete the Kamelet with all mandatory (also optional) options that are described in https://github.com/apache/camel-kamelets[the guidelines for contributing Kamelets].
+We should complete the Kamelet with all mandatory (also optional) options that are described in https://github.com/aanogueira/camel-kamelets[the guidelines for contributing Kamelets].
 
 The final result should look like:
 

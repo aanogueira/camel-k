@@ -5,7 +5,7 @@ The Camel K command line interface (kamel) is the main entry point for running i
 Releases of the Camel K CLI are available on:
 
 - Apache Mirrors (official): https://downloads.apache.org/camel/camel-k/
-- Github Releases: https://github.com/apache/camel-k/releases
+- Github Releases: https://github.com/aanogueira/camel-k/releases
 - Homebrew (Mac and Linux): https://formulae.brew.sh/formula/kamel
 
 == Available Commands

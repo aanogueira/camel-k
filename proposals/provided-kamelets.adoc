@@ -50,12 +50,12 @@ As we move forward, we may want to build together a Catalog of curated Kamelets 
 There's a procedure to embed Kamelets in the operator, but it's not used.
 
 The current implementation currently looks up Kamelets in the current namespace first, then in the operator namespace (in case it's different), then
-it does a lookup on the `main` branch in https://github.com/apache/camel-kamelets to search for a specific Kamelet when used.
+it does a lookup on the `main` branch in https://github.com/aanogueira/camel-kamelets to search for a specific Kamelet when used.
 This causes problems because it's not difficult to hit rate limiting on using the Github APIs. There's a cache to avoid too many requests, but it's not always sufficient.
 
 == Proposal
 
-We should start to add Kamelets to https://github.com/apache/camel-kamelets, and help people contributing their own.
+We should start to add Kamelets to https://github.com/aanogueira/camel-kamelets, and help people contributing their own.
 
 The Kamelet Catalog can be periodically versioned upon need by different projects that use Kamelets. We can use semantic version to signal
 when there's some breaking change in one or more Kamelets, or when a Kamelet uses a feature that is not present in the current version of Camel K (or other projects, when they'll support Kamelets).

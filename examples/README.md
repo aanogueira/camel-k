@@ -18,7 +18,7 @@ In this section you will find the most basic examples. Useful to start learning 
 
 ## Component usage examples
 
-In this section you can find a few examples of certain [`Camel` components](https://camel.apache.org/components/latest/index.html). This is a limited number of the wide variety of components supported by Apache Camel. You can also find useful examples [in this repository](https://github.com/apache/camel-k-examples).
+In this section you can find a few examples of certain [`Camel` components](https://camel.apache.org/components/latest/index.html). This is a limited number of the wide variety of components supported by Apache Camel. You can also find useful examples [in this repository](https://github.com/aanogueira/camel-k-examples).
 
 
 | Type  |  Description | Link  |

@@ -41,8 +41,8 @@ icon: https://github.com/apache/camel/raw/main/docs/img/logo64-d.png
 home: https://camel.apache.org/camel-k/latest/
 
 sources:
-  - https://github.com/apache/camel-k
-  - https://github.com/apache/camel-k-runtime
+  - https://github.com/aanogueira/camel-k
+  - https://github.com/aanogueira/camel-k-runtime
   - https://github.com/apache/camel-quarkus
   - https://github.com/apache/camel
 

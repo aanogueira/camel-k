@@ -195,7 +195,7 @@ RuntimeSpec
 <code>artifacts</code></br>
 <em>
 <a href="#camel.apache.org/v1.CamelArtifact">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelArtifact
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.CamelArtifact
 </a>
 </em>
 </td>
@@ -207,7 +207,7 @@ map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelArtifact
 <code>loaders</code></br>
 <em>
 <a href="#camel.apache.org/v1.CamelLoader">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelLoader
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.CamelLoader
 </a>
 </em>
 </td>
@@ -372,7 +372,7 @@ TraitProfile
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -534,7 +534,7 @@ TraitProfile
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -690,7 +690,7 @@ IntegrationPlatformResourcesSpec
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -1535,7 +1535,7 @@ RuntimeSpec
 <code>artifacts</code></br>
 <em>
 <a href="#camel.apache.org/v1.CamelArtifact">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelArtifact
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.CamelArtifact
 </a>
 </em>
 </td>
@@ -1547,7 +1547,7 @@ map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelArtifact
 <code>loaders</code></br>
 <em>
 <a href="#camel.apache.org/v1.CamelLoader">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.CamelLoader
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.CamelLoader
 </a>
 </em>
 </td>
@@ -2325,7 +2325,7 @@ TraitProfile
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -3003,7 +3003,7 @@ IntegrationPlatformResourcesSpec
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -3218,7 +3218,7 @@ TraitProfile
 <code>traits</code></br>
 <em>
 <a href="#camel.apache.org/v1.TraitSpec">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.TraitSpec
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.TraitSpec
 </a>
 </em>
 </td>
@@ -4291,7 +4291,7 @@ map[string]string
 <code>capabilities</code></br>
 <em>
 <a href="#camel.apache.org/v1.Capability">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1.Capability
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1.Capability
 </a>
 </em>
 </td>
@@ -4832,7 +4832,7 @@ AuthorizationSpec
 <code>types</code></br>
 <em>
 <a href="#camel.apache.org/v1alpha1.EventTypeSpec">
-map[github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
+map[github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
 </a>
 </em>
 </td>
@@ -5105,7 +5105,7 @@ EndpointProperties
 <code>types</code></br>
 <em>
 <a href="#camel.apache.org/v1alpha1.EventTypeSpec">
-map[github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
+map[github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
 </a>
 </em>
 </td>
@@ -5859,7 +5859,7 @@ string
 <code>properties</code></br>
 <em>
 <a href="#camel.apache.org/v1alpha1.JSONSchemaProp">
-map[string]github.com/apache/camel-k/pkg/apis/camel/v1alpha1.JSONSchemaProp
+map[string]github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.JSONSchemaProp
 </a>
 </em>
 </td>
@@ -6388,7 +6388,7 @@ AuthorizationSpec
 <code>types</code></br>
 <em>
 <a href="#camel.apache.org/v1alpha1.EventTypeSpec">
-map[github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/apache/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
+map[github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventSlot]github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1.EventTypeSpec
 </a>
 </em>
 </td>

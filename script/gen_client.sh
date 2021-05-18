@@ -29,29 +29,29 @@ go run k8s.io/code-generator/cmd/client-gen \
 	--input=camel/v1,camel/v1alpha1 \
 	--go-header-file=../../../script/headers/default.txt \
 	--clientset-name "versioned"  \
-	--input-base=github.com/apache/camel-k/pkg/apis \
+	--input-base=github.com/aanogueira/camel-k/pkg/apis \
 	--output-base=. \
-	--output-package=github.com/apache/camel-k/pkg/client/camel/clientset
+	--output-package=github.com/aanogueira/camel-k/pkg/client/camel/clientset
 
 
 go run k8s.io/code-generator/cmd/lister-gen \
-	--input-dirs=github.com/apache/camel-k/pkg/apis/camel/v1,github.com/apache/camel-k/pkg/apis/camel/v1alpha1 \
+	--input-dirs=github.com/aanogueira/camel-k/pkg/apis/camel/v1,github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1 \
 	--go-header-file=../../../script/headers/default.txt \
 	--output-base=. \
-	--output-package=github.com/apache/camel-k/pkg/client/camel/listers
+	--output-package=github.com/aanogueira/camel-k/pkg/client/camel/listers
 
 go run k8s.io/code-generator/cmd/informer-gen \
-    --versioned-clientset-package=github.com/apache/camel-k/pkg/client/camel/clientset/versioned \
-	--listers-package=github.com/apache/camel-k/pkg/client/camel/listers \
-	--input-dirs=github.com/apache/camel-k/pkg/apis/camel/v1,github.com/apache/camel-k/pkg/apis/camel/v1alpha1 \
+    --versioned-clientset-package=github.com/aanogueira/camel-k/pkg/client/camel/clientset/versioned \
+	--listers-package=github.com/aanogueira/camel-k/pkg/client/camel/listers \
+	--input-dirs=github.com/aanogueira/camel-k/pkg/apis/camel/v1,github.com/aanogueira/camel-k/pkg/apis/camel/v1alpha1 \
 	--go-header-file=../../../script/headers/default.txt \
 	--output-base=. \
-	--output-package=github.com/apache/camel-k/pkg/client/camel/informers
+	--output-package=github.com/aanogueira/camel-k/pkg/client/camel/informers
 
 
 # hack to fix non go-module compliance
 rm -rf ./clientset
 rm -rf ./informers
 rm -rf ./listers
-cp -R ./github.com/apache/camel-k/pkg/client/camel/* .
+cp -R ./github.com/aanogueira/camel-k/pkg/client/camel/* .
 rm -rf ./github.com

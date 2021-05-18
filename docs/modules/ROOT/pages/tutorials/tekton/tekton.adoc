@@ -168,7 +168,7 @@ spec:
 ----
 
 The integration file to be executed is set to `examples/tekton/hello.groovy` that is a simple "Hello World" integration contained in the Camel K
-github repository https://github.com/apache/camel-k/tree/main/example/tekton[example/tekton directory].
+github repository https://github.com/aanogueira/camel-k/tree/main/example/tekton[example/tekton directory].
 
 In order to specify the actual source repository, the definition file contains also the following resource:
 
@@ -184,7 +184,7 @@ spec:
     - name: revision
       value: main
     - name: url
-      value: https://github.com/apache/camel-k
+      value: https://github.com/aanogueira/camel-k
 ----
 
 The repo will be now used as input for the <<camel-k-task-run-integration,run-integration task>> in the pipeline.

@@ -1,13 +1,13 @@
-module github.com/apache/camel-k
+module github.com/aanogueira/camel-k
 
 go 1.13
 
 require (
 	github.com/Masterminds/semver v1.5.0
 	github.com/Microsoft/hcsshim v0.8.15 // indirect
-	github.com/apache/camel-k/pkg/apis/camel v0.0.0
-	github.com/apache/camel-k/pkg/client/camel v0.0.0
-	github.com/apache/camel-k/pkg/kamelet/repository v0.0.0
+	github.com/aanogueira/camel-k/pkg/apis/camel v0.0.0
+	github.com/aanogueira/camel-k/pkg/client/camel v0.0.0
+	github.com/aanogueira/camel-k/pkg/kamelet/repository v0.0.0
 	github.com/container-tools/spectrum v0.3.4
 	github.com/containerd/continuity v0.0.0-20210208174643-50096c924a4e // indirect
 	github.com/evanphx/json-patch v4.9.0+incompatible
@@ -72,7 +72,7 @@ replace github.com/google/go-containerregistry => github.com/nicolaferraro/go-co
 
 // Local modules
 replace (
-	github.com/apache/camel-k/pkg/apis/camel => ./pkg/apis/camel
-	github.com/apache/camel-k/pkg/client/camel => ./pkg/client/camel
-	github.com/apache/camel-k/pkg/kamelet/repository => ./pkg/kamelet/repository
+	github.com/aanogueira/camel-k/pkg/apis/camel => ./pkg/apis/camel
+	github.com/aanogueira/camel-k/pkg/client/camel => ./pkg/client/camel
+	github.com/aanogueira/camel-k/pkg/kamelet/repository => ./pkg/kamelet/repository
 )

@@ -18,8 +18,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -43,8 +43,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -68,8 +68,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -93,8 +93,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -118,8 +118,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -143,8 +143,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -168,8 +168,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -193,8 +193,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -218,8 +218,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -243,8 +243,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application
@@ -268,8 +268,8 @@ entries:
       name: nferraro
     name: camel-k
     sources:
-    - https://github.com/apache/camel-k
-    - https://github.com/apache/camel-k-runtime
+    - https://github.com/aanogueira/camel-k
+    - https://github.com/aanogueira/camel-k-runtime
     - https://github.com/apache/camel-quarkus
     - https://github.com/apache/camel
     type: application

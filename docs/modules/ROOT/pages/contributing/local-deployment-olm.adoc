@@ -107,7 +107,7 @@ openshift-marketplace   camel-k                                              Cam
 Now, you can deploy the custom operator using the custom catalog as
 
 ```
-# cd $GOPATH/src/github.com/apache/camel-k
+# cd $GOPATH/src/github.com/aanogueira/camel-k
 # ./kamel install --olm-source=camel-k-catalog --olm-source-namespace=openshift-marketplace --olm-channel=alpha
 OLM is available in the cluster
 Camel K installed in namespace camelk via OLM subscription

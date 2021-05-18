@@ -28,7 +28,7 @@ You can run it on the cluster by executing:
 kamel run hello.groovy
 ```
 
-Integrations can be written in multiple languages. We provide an archive with common examples in the https://github.com/apache/camel-k/releases[release page].
+Integrations can be written in multiple languages. We provide an archive with common examples in the https://github.com/aanogueira/camel-k/releases[release page].
 
 You can change the content of the `hello.groovy` file and execute the command again to see the changes, or use the xref:running/dev-mode.adoc[dev mode] to have even quicker turnaround times.
 

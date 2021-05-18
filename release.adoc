@@ -7,7 +7,7 @@ the technical process changes.
 [[releasing-camel-k-runtime]]
 == Releasing Camel K Runtime
 
-The https://github.com/apache/camel-k-runtime[Camel K Runtime project] is not a standalone project, it's meant to be used with Camel K. For this reason, it's common to release the runtime artifacts together with a release of Camel K.
+The https://github.com/aanogueira/camel-k-runtime[Camel K Runtime project] is not a standalone project, it's meant to be used with Camel K. For this reason, it's common to release the runtime artifacts together with a release of Camel K.
 To avoid depending on snapshots, camel-k-runtime can be also released independently.
 
 Follow the https://github.com/apache/camel/blob/main/docs/user-manual/modules/ROOT/pages/release-guide.adoc[Camel release guide] in order to setup the Maven environment and gpg for the release.
@@ -101,7 +101,7 @@ Binary files will be generated and put in the project root directory, including 
 All those files should be put in the corresponding directory of the camel-k dev SVN at https://dist.apache.org/repos/dist/dev/camel/camel-k/<version>.
 
 Sources are not produced directly by the scripts, but since the procedure is creating a tag, the source code in tar.gz format can be downloaded from Github
-at: https://github.com/apache/camel-k/releases
+at: https://github.com/aanogueira/camel-k/releases
 
 After copying all the files to the dev SVN, a `sign.sh` script in the parent directory can be used to sign all the uploaded artifacts:
 
@@ -205,16 +205,16 @@ Wait for them to be available on https://hub.helm.sh/.
 
 === Homebrew
 
-The https://brew.sh/[HomeBrew] formula for _kamel_ must be synced to download and build the latest version of https://github.com/apache/camel-k[Camel-K], so it can be easily installed on _macOs_ and _Linux_ platforms.
+The https://brew.sh/[HomeBrew] formula for _kamel_ must be synced to download and build the latest version of https://github.com/aanogueira/camel-k[Camel-K], so it can be easily installed on _macOs_ and _Linux_ platforms.
 
-To do so, the content of https://github.com/Homebrew/homebrew-core/blob/master/Formula/kamel.rb[homebrew-core/Formula/kamel.rb] _(the package definition)_ should be updated to point the latest release of https://github.com/apache/camel-k[Camel-K]. 
+To do so, the content of https://github.com/Homebrew/homebrew-core/blob/master/Formula/kamel.rb[homebrew-core/Formula/kamel.rb] _(the package definition)_ should be updated to point the latest release of https://github.com/aanogueira/camel-k[Camel-K]. 
 
 More importantly the _tag_ and _revision_ section configuration should change for a new release e.g
 ```
-  url "https://github.com/apache/camel-k.git",
+  url "https://github.com/aanogueira/camel-k.git",
     :tag      => "0.3.4",
     :revision => "c47fb2c85e89852f0fd111d1662f57917030ced5"
-  head "https://github.com/apache/camel-k.git"
+  head "https://github.com/aanogueira/camel-k.git"
 ```
 
 _P.S please note that the bottles are created using the https://docs.brew.sh/Brew-Test-Bot[Brew Test Bot]   https://docs.brew.sh/Bottles[ [1] ]._

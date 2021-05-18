@@ -29,7 +29,7 @@ echo "Generating CRD API documentation..."
 $TMPDIR/gen-crd-api-reference-docs \
     -config $location/gen-crd-api-config.json \
     -template-dir $location/template \
-    -api-dir "github.com/apache/camel-k/pkg/apis/camel" \
+    -api-dir "github.com/aanogueira/camel-k/pkg/apis/camel" \
     -out-file $rootdir/docs/modules/ROOT/pages/apis/crds-html.adoc
 
 # Workaround: https://github.com/ahmetb/gen-crd-api-reference-docs/issues/33
